@@ -1,0 +1,228 @@
+@media screen and (max-width: 480px) {
+  .questionArea {
+    width: 90%;
+    height: 350px;
+    margin: 10px auto;
+    display: flex;
+    background: #e0f4ff;
+    border-radius: 10px;
+    position: relative;
+
+    form {
+      position: absolute;
+      font-size: 10pt;
+      display: flex;
+      flex-direction: column;
+      top: 155px;
+      left: 15px;
+
+      label {
+        display: flex;
+        justify-content: left;
+
+        input {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+
+
+  .questionNumber {
+    color: grey;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+  }
+
+  .question {
+    font-size: 14pt;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-weight: bold;
+  }
+
+  .pagination {
+    width: 80%;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    bottom: 10px;
+    left: 20px;
+
+    .next {
+      color: white;
+      background: #0095ff;
+    }
+
+    .previous {
+      color: black;
+      background: white;
+      margin-right: 10px;
+    }
+
+    button {
+      font-size: 10pt;
+      border-radius: 5px;
+      border: none;
+      padding: 5px 10px;
+      transition: all .3s linear;
+
+      &:hover {
+        box-shadow: 0px 0px 10px black;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+  .questionArea {
+    width: 90%;
+    height: 420px;
+    margin: 10px auto;
+    background: #e0f4ff;
+    border-radius: 10px;
+    position: relative;
+
+    form {
+      position: absolute;
+      font-size: 14pt;
+      display: flex;
+      flex-direction: column;
+      top: 155px;
+      left: 15px;
+
+      label {
+        display: flex;
+        justify-content: left;
+
+        input {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+
+
+  .questionNumber {
+    color: grey;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+  }
+
+  .question {
+    font-size: 14pt;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-weight: bold;
+  }
+
+  .pagination {
+    width: 80%;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    bottom: 10px;
+    left: 20px;
+
+    .next {
+      color: white;
+      background: #0095ff;
+    }
+
+    .previous {
+      color: black;
+      background: white;
+      margin-right: 10px;
+    }
+
+    button {
+      font-size: 14pt;
+      border-radius: 5px;
+      border: none;
+      padding: 5px 10px;
+      transition: all .3s linear;
+
+      &:hover {
+        box-shadow: 0px 0px 10px black;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .questionArea {
+    width: 700px;
+    height: 400px;
+    margin: 0px auto;
+    background: #e0f4ff;
+    border-radius: 10px;
+    position: relative;
+
+    form {
+      position: absolute;
+      top: 180px;
+      left: 45px;
+    }
+  }
+
+
+  .questionNumber {
+    color: grey;
+    position: absolute;
+    top: 65px;
+    left: 50px;
+  }
+
+  .question {
+    font-size: 16pt;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    font-weight: bold;
+  }
+
+  .pagination {
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    bottom: 50px;
+    left: 50px;
+
+    .next {
+      color: white;
+      background: #0095ff;
+    }
+
+    .previous {
+      color: black;
+      background: white;
+      margin-right: 10px;
+    }
+
+    button {
+      font-size: 14pt;
+      border-radius: 5px;
+      border: none;
+      padding: 5px 10px;
+      transition: all .3s linear;
+
+      &:hover {
+        box-shadow: 0px 0px 10px black;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@media screen and (max-width: 480px) {
+  .information {
+    margin: 20px auto 0px;
+    width: 90%;
+    height: 90px;
+    position: relative;
+  }
+  .result {
+    margin: 20px auto 0px;
+    width: 90%;
+    height: 80px;
+    position: relative;
+  }
+  h1 {
+    margin: 0px;
+    width: 700px;
+    font-size: 14pt;
+  }
+  .definition {
+    font-size: 10pt;
+    position: absolute;
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+  .information {
+    margin: 10px auto;
+    width: 90%;
+    height: 90px;
+    position: relative;
+  }
+  .result {
+    margin: 20px auto 0px;
+    width: 90%;
+    height: 120px;
+    position: relative;
+  }
+  h1 {
+    margin: 0px;
+    width: 700px;
+    font-size: 14pt;
+  }
+  .definition {
+    font-size: 10pt;
+    position: absolute;
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .information {
+    margin: 50px auto 0px;
+    width: 700px;
+    height: 130px;
+    position: relative;
+  }
+
+  .result {
+    margin: 50px auto 0px;
+    width: 970px;
+    height: 100px;
+    position: relative;
+  }
+
+  h1 {
+    margin: 0px;
+    width: 700px;
+  }
+
+  .definition {
+    position: absolute;
+    width: 450px;
+    margin: 20px auto;
+  }
+
+}

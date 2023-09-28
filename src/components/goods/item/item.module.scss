@@ -1,0 +1,223 @@
+@media screen and (max-width: 480px) {
+  @mixin like() {
+    position: absolute;
+    font-size: 18pt;
+    top: 5px;
+    right: 5px;
+    transition: all .3s linear;
+    cursor: pointer;
+    top: 5px;
+    right: 5px;
+  }
+  .item {
+    width: 90%;
+    height: 250px;
+    font-family: Arial;
+
+    .image {
+      width: 100%;
+      height: 160px;
+      border: 1px solid #d7d7d7;
+      border-radius: 5px;
+      margin: 10px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      img {
+        width: 110px;
+        height: 150px;
+      }
+
+      .like {
+        @include like();
+        color: red;
+      }
+
+      .unlike {
+        @include like();
+        color: #c0c0c0;
+        transition: all .3s linear;
+
+        &:hover {
+          color: red;
+        }
+      }
+    }
+
+    .title {
+      width: 100%;
+      height: 25px;
+      margin: 0px auto;
+      font-size: 8pt;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .prices {
+      width: 170px;
+      margin: 0px auto;
+      font-weight: bold;
+
+      .oldPrice {
+        text-decoration: line-through;
+        color: #c7c7c7;
+        margin-right: 10px;
+        font-size: 10pt;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+  @mixin like() {
+    position: absolute;
+    font-size: 18pt;
+    top: 5px;
+    right: 5px;
+    transition: all .3s linear;
+    cursor: pointer;
+    top: 5px;
+    right: 5px;
+  }
+  .item {
+    width: 85%;
+    height: 250px;
+    font-family: Arial;
+
+    .image {
+      width: 100%;
+      height: 160px;
+      border: 1px solid #d7d7d7;
+      border-radius: 5px;
+      margin: 10px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      img {
+        width: 110px;
+        height: 150px;
+      }
+
+      .like {
+        @include like();
+        color: red;
+      }
+
+      .unlike {
+        @include like();
+        color: #c0c0c0;
+        transition: all .3s linear;
+
+        &:hover {
+          color: red;
+        }
+      }
+    }
+
+    .title {
+      width: 100%;
+      height: 25px;
+      margin: 0px auto;
+      font-size: 8pt;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .prices {
+      width: 170px;
+      font-weight: bold;
+
+      .oldPrice {
+        text-decoration: line-through;
+        color: #c7c7c7;
+        margin-right: 10px;
+        font-size: 10pt;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  @mixin like() {
+    position: absolute;
+    font-size: 18pt;
+    top: 5px;
+    right: 5px;
+    transition: all .3s linear;
+    cursor: pointer;
+    top: 5px;
+    right: 5px;
+  }
+  .item {
+    width: 20%;
+    height: 250px;
+    font-family: Arial;
+
+    .image {
+      width: 170px;
+      height: 160px;
+      border: 1px solid #d7d7d7;
+      border-radius: 5px;
+      margin: 10px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      img {
+        width: 110px;
+        height: 150px;
+      }
+
+      .like {
+        @include like();
+        color: red;
+      }
+
+      .unlike {
+        @include like();
+        color: #c0c0c0;
+        transition: all .3s linear;
+
+        &:hover {
+          color: red;
+        }
+      }
+    }
+
+    .title {
+      width: 170px;
+      height: 30px;
+      margin: 5px auto;
+      font-size: 10pt;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .prices {
+      width: 170px;
+      margin: 0px auto;
+      font-weight: bold;
+
+      .oldPrice {
+        text-decoration: line-through;
+        color: #c7c7c7;
+        margin-right: 10px;
+        font-size: 10pt;
+      }
+    }
+  }
+}

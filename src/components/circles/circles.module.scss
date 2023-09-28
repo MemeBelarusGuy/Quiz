@@ -1,0 +1,83 @@
+@media screen and (max-width: 480px){
+
+  .circles {
+    width: 100px;
+    position: absolute;
+    height: 25px;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @mixin circle() {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+  .circle {
+    @include circle();
+    background: #6bb8ff;
+  }
+
+  .selectedCircle {
+    @include circle();
+    background: #008cff;
+  }
+}
+@media screen and (min-width:480px) and (max-width: 1200px) {
+.circles {
+    width: 100px;
+    position: absolute;
+    height: 25px;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @mixin circle() {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+  .circle {
+    @include circle();
+    background: #6bb8ff;
+  }
+
+  .selectedCircle {
+    @include circle();
+    background: #008cff;
+  }
+}
+@media screen and (min-width:1200px) {
+
+  .circles {
+    width: 100px;
+    position: absolute;
+    height: 25px;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @mixin circle() {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+  .circle {
+    @include circle();
+    background: #6bb8ff;
+  }
+
+  .selectedCircle {
+    @include circle();
+    background: #008cff;
+  }
+}
